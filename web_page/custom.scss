@@ -1,0 +1,73 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+.jum{
+    @extend .jumbotron;
+    background-color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    a{
+        @extend .btn;
+        @extend .btn-outline-primary;
+
+    }
+}
+.foot{
+    @extend .py-4;
+    @extend .text-white-50;
+    background-color: #4285F4;
+}
+
+.btn-outline-primary{
+    border-width: medium;
+    font-size: 25px;
+}
+
+
+.nav {
+    @extend .navbar;
+    @extend .navbar-collapse;
+    @extend .fixed-top;
+    font-size: 22px;
+    background-color: #4285F4;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+    
+    ul{
+        li{
+            a{
+                @extend .btn;
+                @extend .btn-primary;
+                background-color: #4285F4;
+                border-color: #4285F4;
+                color: white;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 22px;
+                
+            }
+            display: inline;
+        }
+    }
+}
+
+
+.Mycard-group{
+    @extend .card-group;
+    .Mycard{
+        
+        @extend .card;
+        @extend .card-body;
+        border-width: medium;
+        font-family: 'Roboto Condensed', sans-serif;
+
+    }   
+}
+
+a{
+    @extend .btn;
+    @extend .btn-outline-primary;
+    font-size: 20px;
+
+}
